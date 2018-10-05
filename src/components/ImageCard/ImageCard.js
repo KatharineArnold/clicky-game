@@ -2,12 +2,9 @@ import React from "react";
 import "./ImageCard.css";
 
 const ImageCard = props => (
-  <div className="col">
-    <div className="card">
+  <div className="col-md-3">
+    <div onClick={() => props.click(props.id)} className="remove card">
       <div className="img-container">
-        <span onClick={() => props.removePuppy(props.id)} className="remove">
-          𝘅
-    </span>
         <img alt={props.name} src={props.image} />
       </div>
     </div>
