@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 const NavBar = props => (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <a className="navbar-brand" href="#">Puppy Clicks</a>
             <div className="collapse navbar-collapse" id="navbarColor01">
                 <ul className="navbar-nav mr-auto">
